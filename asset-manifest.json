@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/product-hub/static/css/main.2807edfd.css",
+    "main.js": "/product-hub/static/js/main.16b03edd.js",
+    "static/js/787.eac65215.chunk.js": "/product-hub/static/js/787.eac65215.chunk.js",
+    "static/media/Acer.png": "/product-hub/static/media/Acer.c0e82596ab71c533974c.png",
+    "static/media/ASUS.png": "/product-hub/static/media/ASUS.4175b961857b3fb38056.png",
+    "static/media/HP.png": "/product-hub/static/media/HP.f43a493a18a9913af5f3.png",
+    "static/media/Dell.png": "/product-hub/static/media/Dell.942b0bebc935fbf7075f.png",
+    "static/media/Lenovo.png": "/product-hub/static/media/Lenovo.c8dce51a37a1994ed4d3.png",
+    "static/media/Apple.png": "/product-hub/static/media/Apple.d9bd18c580b09a82f359.png",
+    "index.html": "/product-hub/index.html",
+    "main.2807edfd.css.map": "/product-hub/static/css/main.2807edfd.css.map",
+    "main.16b03edd.js.map": "/product-hub/static/js/main.16b03edd.js.map",
+    "787.eac65215.chunk.js.map": "/product-hub/static/js/787.eac65215.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2807edfd.css",
+    "static/js/main.16b03edd.js"
+  ]
+}
