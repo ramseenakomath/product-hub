@@ -15,12 +15,13 @@
   background-color: yellowgreen;
   border: none;
   border-radius: 10px;
-  cursor: pointer;
-}
-.sec-btn a{
-  text-decoration: none;
   font-size: 15px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.sec-btn:hover{
+  background-color: greenyellow;
 }
 .items{
   width: 300px;
@@ -47,6 +48,9 @@
   color: black;
   font-size: 20px;
   cursor: pointer;
+}
+.addcart-btn:hover{
+  background-color: yellowgreen;
 }
 .body{
   display: flex;
@@ -76,4 +80,8 @@
   color: white;
   font-size: 15px;
   cursor: pointer;
+}
+
+.hidden{
+  display: none;
 }

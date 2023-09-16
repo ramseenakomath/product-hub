@@ -7,6 +7,11 @@ const Product = () => {
   const [items,setItems] =useState(productData);
   const [cart,setCart] = useState([]);
   const [totalPrice,setTotalPrice] = useState(0);
+  const [showHome,setShowHome] = useState(true);
+
+  const displayPage = () => {
+    setShowHome(!showHome);
+  }
 
   const addTOCart =(item) => {
     const sameInCArt = cart.some((product) => product.id === item.id);
@@ -27,10 +32,10 @@ const Product = () => {
     <>
       <div>
         
-        <div className='products' id='home'>
+        <div className={showHome ? 'products' : 'Products hidden'} id='home'>
           <div className='header'>
             <h1 className='heading'>Product Hub</h1>
-            <button className='sec-btn'><a href='#cart'>Cart</a></button>
+            <button className='sec-btn' onClick={displayPage}>Cart</button>
           </div>
             {items.map((item) => (
               <div className='items' key={item.id}>
@@ -46,10 +51,10 @@ const Product = () => {
             ))}
         </div>
 
-        <div className='cart-page hide' id='cart'>
+        <div className={showHome ? 'cart-page hidden' : 'cart-page'} id='cart'>
           <div className='header'>
             <h1>Shopping Cart</h1>
-            <button className='sec-btn'><a href='#home'>Home</a></button>
+            <button className='sec-btn' onClick={displayPage}>Home</button>
           </div>
           <div className='body'>
             <h2 className='total'>Total Price: {totalPrice}</h2>
